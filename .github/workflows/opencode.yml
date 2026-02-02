@@ -22,7 +22,7 @@ jobs:
            persist-credentials: false
 
        - name: Run OpenCode
-        uses: anomalyco/opencode/github@latest
-        with:
-          model: github-copilot/claude-sonnet-4.5
+         uses: anomalyco/opencode/github@latest
+         with:
+           model: github-copilot/claude-sonnet-4.5
           
